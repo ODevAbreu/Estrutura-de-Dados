@@ -1,3 +1,5 @@
+package ListaLineares;
+
 class Stack<T> {
 
     private class Node {
@@ -30,7 +32,7 @@ class Stack<T> {
 
     public T pop() {
         if (isEmpty()) {
-            throw new RuntimeException("Stack vazia");
+            throw new RuntimeException("ListaLineares.Stack vazia");
         }
         T value = top.data;
         top = top.next;
@@ -41,7 +43,7 @@ class Stack<T> {
 
     public T top() {
         if (isEmpty()) {
-            throw new RuntimeException("Stack vazia");
+            throw new RuntimeException("ListaLineares.Stack vazia");
         }
         return top.data;
     }

@@ -1,3 +1,5 @@
+package ListaLineares;
+
 public class ArrayList<T> {
 
     private T[] data;
@@ -145,7 +147,7 @@ public class ArrayList<T> {
         System.out.println("== Teste add ==");
         list.add("A");
         list.add("B");
-        list.add("C"); // resize
+        list.add("C");
         printList(list);
 
         System.out.println("\n== Teste add(index, e) ==");
