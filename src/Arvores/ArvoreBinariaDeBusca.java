@@ -46,4 +46,17 @@ public class ArvoreBinariaDeBusca {
         // Retorna o nó atual
         return atual;
     }
+
+
+    public static void main(String[] args) {
+
+        ArvoreBinariaDeBusca arvore = new ArvoreBinariaDeBusca();
+
+        arvore.inserir(10);
+        arvore.inserir(5);
+        arvore.inserir(15);
+        arvore.inserir(3);
+
+        System.out.println(arvore.raiz.valor);
+    }
 }
